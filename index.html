@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mind.OS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+
+<div class="overlay"></div>
+
+<audio id="bgMusic" loop></audio>
+
+<main class="container">
+
+  <section class="hero">
+    <div class="tag">
+      <span></span>
+      MIND.OS ONLINE
+    </div>
+
+    <h1>
+      Sistema emocional<br>
+      em tempo real.
+    </h1>
+
+    <p>
+      Escolha um estado emocional e observe o sistema reagir.
+      Música, partículas, cores, atmosfera e código mudam dinamicamente.
+    </p>
+  </section>
+
+  <section class="terminal">
+
+    <div class="terminal-top">
+      <div class="circle red"></div>
+      <div class="circle yellow"></div>
+      <div class="circle green"></div>
+    </div>
+
+    <div class="content">
+
+      <label>Estado emocional:</label>
+
+      <select id="mood">
+        <option value="focused">Focado</option>
+        <option value="chaotic">Caótico</option>
+        <option value="dreamy">Nefelibata</option>
+        <option value="melancholic">Melancólico</option>
+        <option value="confident">Confiante</option>
+      </select>
+
+      <button id="bootBtn">
+        Inicializar Sistema
+      </button>
+
+      <div class="code-area">
+        <div class="glow"></div>
+
+<pre id="codeBlock">
+awaiting emotional initialization...
+</pre>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
