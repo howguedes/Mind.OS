@@ -15,10 +15,10 @@ status = "locked in"`
 
   chaotic:{
     bg1:"#18000e",
-    bg2:"#520028",
-    accent:"#ff006e",
+    bg2:"#aab300a0",
+    accent:"#ff9100",
     particleSpeed:1.8,
-    music:"songs/chaotic.mp3",
+    music:"https://youtu.be/ZFWC4SiZBao?si=lL1Ymu0CxO1jcnzF",
     code:`brain.activity = overload
 emotion = "chaotic"
 playlist = "ultraviolence"
